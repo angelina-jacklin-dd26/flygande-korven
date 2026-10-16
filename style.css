@@ -67,20 +67,26 @@ header {
     margin-top: 12px;
 }
 
-.link-title {
+.footer-liks__item {
+    display: flex;
+}
+
+.footer-links__title {
     font-weight: 700;
-    display: inline;
+    padding-right: 6px;
+
 }
 
 .footer-links {
     padding-top: 24px;
     list-style: none;
+    font-size: 14px;
 }
 
 footer {
     margin-top: 48px;
 
-    .copyright {
+    .copyright-text {
         margin-top: 24px;
         font-size: small;
     }
